@@ -104,7 +104,7 @@ body {
 
 .home-text {
   flex: 1 1 320px;
-  text-align: center;       /* Home text + heading + button centered */
+  text-align: center;      
 }
 
 .home-text h1 {
@@ -191,15 +191,15 @@ body {
 /* ===== WORK EXPERIENCE SECTION FIX ===== */
 .work-experience {
   max-width: 1100px;
-  margin: 20px auto;   /* auto → perfectly center the block */
+  margin: 20px auto; 
   padding: 40px 20px;
-  text-align: center;  /* center all text */
+  text-align: center; 
 }
 
 .work-experience ul {
-  margin: 10px auto;   /* center the list */
+  margin: 10px auto;   
   padding: 0;
-  list-style-position: inside;  /* moves bullets to center */
+  list-style-position: inside;  
   line-height: 1.7;
 }
 
@@ -231,7 +231,7 @@ body {
   margin-bottom: 6px;
 }
 
-/* Layout for each skill item */
+
 /* ===== PIE CHART SKILL SUMMARY ===== */
 
 .skill-summary-pie {
@@ -292,7 +292,7 @@ body {
 
 .skills-dashboard {
   padding: 60px 20px;
-  background-color: #050505; /* match your site bg */
+  background-color: #050505; 
   color: #ffffff;
 }
 
@@ -339,7 +339,7 @@ body {
   border-radius: 20px;
   padding: 6px 12px;
   font-size: 0.9rem;
-  border: 1px solid #00ff66; /* accent color */
+  border: 1px solid #00ff66; 
 }
 
 /* Generic list style */
@@ -374,11 +374,11 @@ body {
   height: 100%;
   border-radius: 10px;
 }
-/* Tune these widths like "percentages" of your strength */
-.p1 { width: 80%; background: #1E90B6; } /* Fast learner */
-.p2 { width: 75%; background: #007F73; } /* Creative thinking */
-.p3 { width: 85%; background: #D64545; } /* Problem solving */
-.p4 { width: 90%; background: #FF8C32; } /* Consistent & dedicated */
+/*widths like "percentages"*/
+.p1 { width: 80%; background: #1E90B6; }
+.p2 { width: 75%; background: #007F73; } 
+.p3 { width: 85%; background: #D64545; }
+.p4 { width: 90%; background: #FF8C32; }
 
 /* Education list */
 .edu-list {
@@ -438,4 +438,5 @@ body {
     flex-direction: column;
   }
 }
+
 
