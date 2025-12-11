@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+   <link rel="stylesheet" href="dublicate_style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+  <div class="nav-container">
+  <nav class="navbar">
+
+    
+    <img src="img/birdimg.png" alt="Logo" class="logo">
+
+   
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="#home" class="nav-links nav-links-home">Home</a></li>
+      <li><a href="#services" class="nav-links nav-links-service">Services</a></li>
+      <li><a href="#about" class="nav-links nav-links-aboutme">About me</a></li>
+      <li><a href="#contact" class="nav-links nav-links-contactme">Contact me</a></li>
+    </ul>
+
+  </nav>
+</div>
+
+<section id="home" class="home">
+  <div class="home-container">
+    <div class="home-text">
+      <h1>Hi, I'm saraswathimurugan</h1>
+
+      <p>
+        A passionate and creative learner aiming to build a strong career in technology.
+        I love exploring new tools, working on real-world projects, and continuously
+        improving my skills. Detail-oriented and enthusiastic graduate with a strong foundation in
+        SQL, data analysis, and relational database management systems.
+        Skilled in writing queries, optimizing data retrieval, and working
+        with SQL, PL/SQL, and Linux Server. Eager to apply analytical and
+        problem-solving skills in a data-driven environment
+      </p>
+
+      <div class="resume-wrapper">
+        <a href="Saraswathi CV.pdf" download class="resume-btn">Download Resume</a>
+      </div>
+    </div>
+
+    <div class="home-right">
+      <img src="./img/profile-pic.jpg" alt="Profile Photo" class="profile-img" />
+    </div>
+  </div>
+</section>
+<section class="work-experience">
+  <h2>Work Experience (Entry-level)</h2>
+
+  <h3>Customer Support Executive</h3>
+
+  <p class="company">Altruist Technologies Pvt Ltd, Chennai</p>
+  <p class="duration">May 2023 – Jan 2024</p>
+
+  <ul>
+    <li>Responded promptly to customer inquiries across various channels, ensuring high customer satisfaction.</li>
+    <li>Demonstrated strong problem-solving abilities to resolve issues efficiently and professionally.</li>
+    <li>Managed time effectively and multitasked in a fast-paced, high-pressure environment.</li>
+    <li>Built and maintained positive relationships with clients through clear communication and a service-oriented mindset.</li>
+  </ul>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="section">
+  <div class="section-inner">
+    <h2>About Me</h2>
+    <p>
+    An aspiring developer who is passionate about designing clean web pages
+      and solving real-world problems with technology.
+    </p>
+   <section id="skills-dashboard" class="skills-dashboard">
+  <div class="dashboard-inner">
+    <h2 class="dashboard-title">Skills & Education</h2>
+
+    <div class="dashboard-grid">
+
+      <!-- TECHNICAL SKILLS CARD -->
+      <div class="dash-card tech-card">
+        <h3>Technical Skills</h3>
+        <ul class="pill-list">
+          <li>SQL</li>
+          <li>PL/SQL</li>
+          <li>Linux</li>
+          <li>Full Stack – Java</li>
+          <li>MS Office (Excel, Word, PowerPoint)</li>
+        </ul>
+      </div>
+
+      <!-- WHAT I DO CARD -->
+      <div class="dash-card work-card">
+        <h3>What I Do</h3>
+        <ul>
+          <li>Design simple, attractive, and user-friendly webpages</li>
+          <li>Practice front-end development (HTML, CSS, JavaScript)</li>
+          <li>Build small projects and learn new tools</li>
+        </ul>
+      </div>
+
+      <!-- STRENGTHS CARD -->
+      <div class="dash-card strengths-card">
+        <h3>My Strengths</h3>
+
+        <div class="strength-item">
+          <span>Fast learner</span>
+          <div class="bar">
+            <div class="progress p1"></div>
+          </div>
+        </div>
+
+        <div class="strength-item">
+          <span>Creative thinking</span>
+          <div class="bar">
+            <div class="progress p2"></div>
+          </div>
+        </div>
+
+        <div class="strength-item">
+          <span>Problem solving</span>
+          <div class="bar">
+            <div class="progress p3"></div>
+          </div>
+        </div>
+
+        <div class="strength-item">
+          <span>Consistent and dedicated</span>
+          <div class="bar">
+            <div class="progress p4"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACADEMIC CARD -->
+      <div class="dash-card edu-card">
+        <h3>Academic Education</h3>
+        <ul class="edu-list">
+          <li>
+            <strong>MBA</strong> - Madras University (Distance Education), Chennai<br>
+            Jun 2022 - Apr 2024 • Graduated in First Class
+          </li>
+          <li>
+            <strong>BBA</strong> - Prince Shri Venkateshwara Arts & Science College, Chennai<br>
+            Jun 2019 - Apr 2022 • Graduated with 91.1%
+          </li>
+          <li>
+            <strong>HSC</strong> - Kalaimagal Vidhya Mandir MHSS, Chennai<br>
+            Jun 2020 - Apr 2022 • Graduated with 71.1%
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="skill-summary-pie">
+  <h2>Skill Summary</h2>
+
+  <div class="pie-container">
+    <canvas id="skillPie"></canvas>
+
+    <div class="pie-legend">
+      <ul>
+        <li><span class="dot dot1"></span> Adaptability</li>
+        <li><span class="dot dot2"></span> Time Management</li>
+        <li><span class="dot dot3"></span> Team Collaboration</li>
+        <li><span class="dot dot4"></span> Administrative Support</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- SERVICES SECTION -->
+<section id="services" class="section">
+  <div class="section-inner">
+    <h2>My Services</h2>
+
+    <div class="service-box">
+      <h3>Web Design</h3>
+      <p>Creating clean, modern, responsive website layouts.</p>
+    </div>
+
+    <div class="service-box">
+      <h3>Portfolio Website Creation</h3>
+      <p>Helping students and beginners build their own personal portfolios.</p>
+    </div>
+
+    <div class="service-box">
+      <h3>Frontend Development</h3>
+      <p>Building static pages using HTML, CSS,JavaScript and beginner-level REACT.JS</p>
+    </div>
+
+    <div class="service-box">
+      <h3>UI Improvement</h3>
+      <p>Improving the visual experience of existing webpages.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="section">
+  <div class="section-inner">
+    <h2>Contact Me</h2>
+    <p>Email: saraswathimurugan534@gmail.com</p>
+    <p>Phone: +91 6369508658</p>
+    <p>Location: chennai</p>
+
+    <p>Let's connect on:</p>
+    <ul class="social-list">
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">GitHub</a></li>
+    </ul>
+  </div>
+</section>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Your JS (app.js in same folder) -->
+
+<script src="app.js"></script>
+</body>
+</html>
+
